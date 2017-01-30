@@ -1,0 +1,25 @@
+{
+    "name": "tanghao2018/encryption",
+    "description": "PHP library to encryption",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "t.hao",
+            "email": "t.hao.2010@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "encryption\\": "src/"
+        }
+    },
+    "repositories":{
+        "packagist":{
+            "type":"composer",
+               "url":"https://packagist.phpcomposer.com"
+        }
+    }
+}
